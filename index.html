@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="home.css">
+ <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </head>
+      <body style="background-color: dimgray" >
+        <div class="jumbotron red center"  >
+        <h1 style="height: 100px;margin-top: -10px">Typing game</h1> 
+        </div>
+        <div class="container white-text">
+            <div class="row">
+                <div class="col s12 center">
+        <h4>Type the word's in<span id="seconds" class="orange-text"> 5</span> seconds</h4>
+        </div>
+        </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col s12 center  white-text">
+            <h3 id="current">Local</h3>
+            </div>
+            </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="container">
+                    <div class="row">
+                        <div class="col s12 center">
+                     <div class="input-field col s12  white-text">
+                     <input  id="word-input" type="text" class="validate" autofocus>
+                  <label for="first_name">Enter Words</label>
+                  <h4 id="message"></h4>
+                </div>
+                </div>
+                </div>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col s12 m6">
+            <h4>Time Left:
+                <span id="time">0</span>
+            </h4>
+        </div>
+        <div class="col s12 m6">
+                <h4>Score:
+                    <span id="score">0</span>
+                </h4>
+            </div>
+    </div>
+</div>
+
+<script src="mainjs.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+     
+      </body>
+      </html>
